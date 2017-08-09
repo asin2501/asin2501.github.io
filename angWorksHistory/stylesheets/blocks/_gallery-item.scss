@@ -1,0 +1,18 @@
+.gallery{
+  padding-top:30px;
+  padding-bottom:60px;
+}
+.gallery-item{
+  padding-top:150%;
+  border: 8px solid #fff;
+  box-shadow: 0 0 12px rgba(#000, 0.3);
+  border-radius: 4px;
+  opacity: 0.9;
+  transition: opacity 300ms, box-shadow 300ms;
+  background-size:100%;
+
+  &:hover{
+    opacity: 1;
+    box-shadow: 0 0 14px rgba(#000, 0.6);
+  }
+}

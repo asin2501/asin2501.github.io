@@ -1,0 +1,13 @@
+@import "variables";
+@import "fonts";
+@import "typography";
+
+html, body{
+  margin:0;
+}
+
+img{
+  max-width: 100%;
+}
+
+//base styles, and base classes like wrappers, containers or clearfix...

@@ -1,0 +1,37 @@
+.project-item {
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+  P:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.project-item__row {
+  align-items: center;
+  + .project-item__row {
+    margin-top: 20px;
+  }
+}
+
+.project-item__name {
+  text-align: right;
+  font-style: italic;
+  font-size:12px;
+}
+.project-item__header{
+  padding-top:35px;
+  padding-bottom:35px;
+  margin-bottom:30px;
+  margin-top:50px;
+  box-shadow: 0 0 12px rgba(#000, 0.3);
+  border-radius:4px;
+}
+
+.project-item__image{
+  text-align: center;
+}
